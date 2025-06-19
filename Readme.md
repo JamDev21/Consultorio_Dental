@@ -30,22 +30,22 @@ Este proyecto es un sistema de gestión para un consultorio dental, desarrollado
 ---
 
 ## Capturas de pantalla del sitema:
-![inicio](assets\ss\inicio.png)
+![inicio](./assets/ss/inicio.png)
 ### Usuarios
-![login de usuarios](assets\ss\loginUsarios.png)
-![Registro de usuario](assets\ss\registroUsuario.png)
-![agenda de usuarios](assets\ss\agendaUsuarios.png)
+![login de usuarios](./assets/ss/loginUsarios.png)
+![Registro de usuario](./assets/ss/registroUsuario.png)
+![agenda de usuarios](./assets/ss/agendaUsuarios.png)
 
 ### Personal
-![Login de personal](assets\ss\loginPersonal.png)
-![Registrar a mas personal](assets\ss\resgistroPersonal.png)
-![Login de personal](assets\ss\dashboardPersonal.png)
-![Lista de pacientes](assets\ss\listaPacientes.png)
-![Agendar citas a pacientes]( assets\ss\agendar.png)
-![Reagendar citas a pacientes](assets\ss\reagendar.png)
+![Login de personal](./assets/ss/loginPersonal.png)
+![Registrar a mas personal](./assets/ss/resgistroPersonal.png)
+![Login de personal](./assets/ss/dashboardPersonal.png)
+![Lista de pacientes](./assets/ss/listaPacientes.png)
+![Agendar citas a pacientes]( ./assets/ss/agendar.png)
+![Reagendar citas a pacientes](./assets/ss/reagendar.png)
 
 ### Base de datos
-![Base de  datos](assets\ss\database.png)
+![Base de  datos](./assets/ss/database.png)
 
 ## ⚙️ Instalación local (paso a paso)
 
@@ -90,5 +90,5 @@ $bd = "dentista";
 
 ### ⚙️ 3. Configurar conexión a la base de datos
 1. Abre tu navegador y entra a: http://localhost/SOFTware%20Dentista
-2. Deberías ver la pantalla de inicio: ![inicio](assets\ss\inicio.png)
+2. Deberías ver la pantalla de inicio: ![inicio](./assets/ss/inicio.png)
 
