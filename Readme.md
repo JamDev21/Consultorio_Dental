@@ -29,7 +29,7 @@ Este proyecto es un sistema de gestión para un consultorio dental, desarrollado
 
 ---
 
-## Capturas de pantalla del sitema:
+## Capturas de pantalla del sistema:
 ![inicio](./assets/ss/inicio.png)
 ### Usuarios
 ![login de usuarios](./assets/ss/loginUsarios.png)
