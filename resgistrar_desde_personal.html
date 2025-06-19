@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <img class = "logo" src="img\logoDental.png" alt="logo clinica">
+        <p class = "bienvenido">Bienvenid@</p>
+    </header>
+    <main class="bodyLoging">
+        <div class="divregistro">
+            <footer class="footer-Div">
+                <p class="title-text-loging">Registro</p>
+            </footer>
+            <img class="img-perfil-registro" src="img\registro.png" alt="">
+            <form action="resgistrar_desde_personal.php" method="POST">
+                <label class="title-text-div" for="nombre">Nombre: </label>
+                <input type="nombre" name="nombre" id="nombre" required>
+                
+                <label  class = "title-text-div" for="apellidos">Apellidos:</label>
+                <input type="apellidos" name="apellidos" id="apellidos" required>
+                
+                <label  class = "title-text-div" for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label  class = "title-text-div" for="password">Contraseña:</label>
+                <input type="password" name="password" id="password" required>
+                
+                <label  class = "title-text-div" for="telefono">Telefono:</label>
+                <input type="telefono" name="telefono" id="telefono" required>
+                
+                <label  class = "title-text-div" for="sexo">Sexo:</label>
+                <input type="sexo" name="sexo" id="sexo" required>
+                <br>
+                <label  class = "title-text-div" for="fecha-nacimiento">Fecha de nacimiento:</label>
+                <input type="fecha-nacimiento" name="fecha-nacimiento" id="fecha-nacimiento" required>
+    
+                <label  class = "title-text-div" for="contacto_emergencia">Contacto de emergencia:</label>
+                <input type="contacto_emergencia" name="contacto_emergencia" id="contacto_emergencia" required>
+                <input class="btn-div-registro" type="submit" value="Continuar">
+            </form>
+            <br>
+            </div>
+    </main>
+   
+    
+</body>
+</html>

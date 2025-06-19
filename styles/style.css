@@ -1,0 +1,225 @@
+@import  url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sriracha&display=swap');
+
+header{
+    background-color:rgba(109, 179, 243, 1);
+    margin: 0px;
+    padding: 8px;
+    border-radius: 64px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+body{
+    background-color: rgba(47, 142, 229, 1);
+}
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 250px;
+    margin-right: 1000px;
+}
+.opciones{
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+    align-content: center;
+    font-size: 35px;
+
+}
+.title-text{
+    margin-left: 400px;
+    font-size: 150px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+.title-text2{
+    margin-left: 400px;
+    font-size: 150px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: -220px;
+
+}
+.title-text3{
+    margin: 0px;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    margin-top: -200px;
+}
+
+.btn{
+    background-color: rgba(254, 70, 70, 1);
+    border-radius: 8px;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 30px;
+    
+}
+.galeria1{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-gap: 20px;
+    margin: 80px auto; /* Centra el div horizontalmente */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin-left: 1500px;
+    margin-top: -500px;
+}
+.galeria2{
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-gap: 20px;
+    margin: 80px auto; /* Centra el div horizontalmente */
+    width: fit-content; /* Ajusta el ancho al contenido */
+    margin-left: 2050px;
+    margin-top: -1450px;
+}
+.imgIndividual {
+    width: 458px;
+    height: 412px;
+    border-radius: 20px;
+}
+.imgIndividual:hover {
+    width: 558px;
+    height: 512px;
+    border-radius: 20px;
+}
+
+.imgConsultorio{
+    border-radius: 30px;
+    margin-left: 100px;
+}
+
+.bodyLoging{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+.divLoging{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 40px;
+    width: 600px;
+    height: 650px;
+    align-items: center;
+    display: inline-block;
+    box-shadow: 0 88px 88px rgba(0, 0, 0, 0.1); /* Sombra opcional para mejor apariencia */
+}
+.title-text-loging{
+    font-size: 40px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.footer-Div{
+    background-color: rgba(39, 3, 243, 0.795);
+    border-radius: 40px;
+    margin: 0px;
+    margin-top: -40px;
+}
+.img-perfil{
+    width: 250px;
+    height: 250px;
+    margin-left: 175px;
+    margin-bottom: 20px; /* Espacio opcional debajo de la imagen */
+}
+.title-text-div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    margin-left: 50px;
+}
+input{
+    width: 300px ;
+    height: 20px ;
+    font-size: 25px;
+}
+.btn-div{
+    background-color: rgba(254, 70, 70, 1);
+    border-radius: 8px;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    margin-left: 200px;
+    margin-top: 30px;
+    text-align: center; /* Centra el texto horizontalmente */
+    display: flex; /* Usa flexbox para centrar verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    font-size: 20px;
+    align-content: center;
+}
+.opciones-div{
+    text-decoration: none;
+    color: white;
+    margin-left: 240px;
+    font-size: 35px;
+}
+
+.bienvenido{
+    font-size: 45px;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    align-content: center;
+    padding: 0;
+}
+
+.divregistro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255,0.4);
+    border-radius: 40px;
+    width: 1500px;
+    height: 650px;
+    align-items: center;
+    display: inline-block;
+    box-shadow: 0 88px 88px rgba(0, 0, 0, 0.1); /* Sombra opcional para mejor apariencia */
+    margin-top: -300px;
+}
+.img-perfil-registro{
+    width: 250px;
+    height: 270px;
+    margin-left: 650px;
+    margin-bottom: 20px; /* Espacio opcional debajo de la imagen */
+}
+
+.btn-div-registro{
+    background-color: rgba(254, 70, 70, 1);
+    border-radius: 8px;
+    font-style: normal;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    width: 200px;
+    margin-left: 700px;
+    margin-top: 30px;
+    text-align: center; /* Centra el texto horizontalmente */
+    display: flex; /* Usa flexbox para centrar verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    font-size: 20px;
+    align-content: center;
+}

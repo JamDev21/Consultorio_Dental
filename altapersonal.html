@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <img class = "logo" src="img\logoDental.png" alt="logo clinica">
+        <p class = "bienvenido">Bienvenid@</p>
+    </header>
+    <main class="bodyLoging">
+        <div class="divregistro">
+            <footer class="footer-Div">
+                <p class="title-text-loging">Registro</p>
+            </footer>
+            <img class="img-perfil-registro" src="img\registro.png" alt="">
+            <form action="altapersonal.php" method="POST">
+                <label class="title-text-div" for="nombre">Nombre: </label>
+                <input type="nombre" name="nombre" id="nombre" required>
+                
+                <label  class = "title-text-div" for="apellidos">Apellidos:</label>
+                <input type="apellidos" name="apellidos" id="apellidos" required>
+                
+                <label  class = "title-text-div" for="usuario">Usuario:</label>
+                <input type="usuario" name="usuario" id="usuario" required>
+                <br>
+                <label  class = "title-text-div" for="password">Contraseña:</label>
+                <input type="password" name="password" id="password" required>
+                
+                <label  class = "title-text-div" for="cargo">Cargo:</label>
+                <input type="cargo" name="cargo" id="cargo" required>
+                
+                <label  class = "title-text-div" for="telefono">Telefono:</label>
+                <input type="telefono" name="telefono" id="telefono" required>
+                <br>
+                <label  class = "title-text-div" for="correo">Correo:</label>
+                <input type="correo" name="correo" id="correo" required>
+    
+                <label  class = "title-text-div" for="fecha-registro">Fecha de registro:</label>
+                <input type="fecha-registro" name="fecha-registro" id="fecha-registro" required>
+
+                <input class="btn-div-registro" type="submit" value="Continuar">
+            </form>
+            <br>
+            </div>
+    </main>
+   
+    
+</body>
+</html>
